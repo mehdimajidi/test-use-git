@@ -8,6 +8,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/hi", function (req, res) {
+  console.log("aaa");
   res.send("Hello Ravak");
 });
 
